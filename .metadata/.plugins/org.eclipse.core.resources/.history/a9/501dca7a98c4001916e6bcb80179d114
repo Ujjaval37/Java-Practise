@@ -1,0 +1,5 @@
+package Streamjava;
+
+public enum Gender {
+
+}

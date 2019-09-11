@@ -1,0 +1,10 @@
+package Streamjava;
+
+public class Employename {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

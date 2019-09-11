@@ -1,0 +1,40 @@
+package testcookie;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/FirstServlet")
+public class FirstServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void dopost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		String user =request.getParameter("user");
+		//Cookie[] ck = request.getCookies();
+		//out.println("Welcome " + ck[0].getValue());
+		out.println("<form action='SecondServlet'>");
+		out.println("<input type='hidden' name='user' value='"+user+"'>");
+		out.println("<input type='submit' name='submit' value='submit'>");
+		out.println("</form>");
+
+
+	}
+
+}
+
+/*
+ * protected void doPost(HttpServletRequest request, HttpServletResponse
+ * response) throws ServletException, IOException { //doGet(request, response);
+ * }
+ */
+
+

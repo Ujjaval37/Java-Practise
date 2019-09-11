@@ -1,0 +1,2 @@
+hello ,my name is ,
+we r writing ,some text to the file ,

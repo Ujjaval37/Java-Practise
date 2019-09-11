@@ -1,0 +1,48 @@
+package Exception;
+
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Writefileclass {
+
+	public static void main(String[] args) throws IOException {
+		try {
+			FileWriter filewriter = new FileWriter("D:\\UA.txt");
+			BufferedWriter bufferedwriter = new BufferedWriter(filewriter);
+			bufferedwriter.write("hello ,");
+			bufferedwriter.write("my name is ,");
+			bufferedwriter.newLine();
+			bufferedwriter.write("we r writing ,");
+			bufferedwriter.write("some text to the file ,");
+			bufferedwriter.newLine();
+			bufferedwriter.append("Ujjaval");
+			bufferedwriter.write(65);
+			bufferedwriter.write(34);
+
+
+
+			bufferedwriter.close();	
+		}
+		catch(IOException e)
+		{
+			System.out.println("Error Writing" + "UA.txt" + "'");
+		}
+		try
+		{
+			FileReader ua = new FileReader("\"D:\\\\UA.txt\"");
+			int i;
+			while((i=ua.read())!=-1)
+				System.out.println((char)i);
+
+		}
+		catch(FileNotFoundException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
+

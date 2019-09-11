@@ -1,0 +1,33 @@
+package Exception;
+
+import java.io.BufferedWriter;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Writefileclass {
+
+	public static void main(String[] args) {
+		try {
+			FileWriter filewriter = new FileWriter("D:\\UA.txt");
+			BufferedWriter bufferedwriter = new BufferedWriter(filewriter);
+			bufferedwriter.write("hello ,");
+			bufferedwriter.write("my name is ,");
+			bufferedwriter.newLine();
+			bufferedwriter.write("we r writing ,");
+			bufferedwriter.write("some text to the file ,");
+			bufferedwriter.newLine();
+			bufferedwriter.append("Ujjaval");
+			bufferedwriter.close();	
+		}
+		catch(IOException e)
+		{
+			System.out.println("Error Writing" + "UA.txt" + "'");
+		}
+		{
+			
+		}
+
+	}
+
+}

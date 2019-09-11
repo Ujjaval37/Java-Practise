@@ -1,0 +1,15 @@
+
+Sep 03, 2019 14:33:39.92 NEW SESSION
+Sep 03, 2019 14:33:39.93 Unable to read VR Path Registry from C:\Users\Training\AppData\Local\openvr\openvrpaths.vrpath
+Sep 03, 2019 14:33:40.24 Unable to read VR Path Registry from C:\Users\Training\AppData\Local\openvr\openvrpaths.vrpath
+Sep 03, 2019 14:33:40.97 Unable to read VR Path Registry from C:\Users\Training\AppData\Local\openvr\openvrpaths.vrpath
+Sep 03, 2019 14:33:41.95 Unable to read VR Path Registry from C:\Users\Training\AppData\Local\openvr\openvrpaths.vrpath
+Sep 03, 2019 14:33:44.27 Unable to read VR Path Registry from C:\Users\Training\AppData\Local\openvr\openvrpaths.vrpath
+Sep 03, 2019 14:33:44.49 Unable to read VR Path Registry from C:\Users\Training\AppData\Local\openvr\openvrpaths.vrpath
+Sep 03, 2019 14:34:06.60 
+Sep 03, 2019 14:34:06.62 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Sep 03, 2019 14:34:06.63 
+
+Sep 06, 2019 13:39:01.26 NEW SESSION
+Sep 06, 2019 13:39:01.27 [2764:8808:0906/133901.268:ERROR:browser_process_sub_thread.cc(203)] Waited 89 ms for network service
+Sep 06, 2019 16:50:03.74 [7028:5936:0906/165003.744:ERROR:browser_process_sub_thread.cc(203)] Waited 90 ms for network service
